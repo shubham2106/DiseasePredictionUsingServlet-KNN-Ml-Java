@@ -1,0 +1,262 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFFFF;
+	margin: 0px;
+}
+div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
+	padding: 0px;
+	margin: 0px;
+}
+a {
+	color: #0628AE;
+	text-decoration: underline;
+}
+a:hover {
+	color: #0628AE;
+	text-decoration: none;
+}
+.main {
+	width: 997px;
+	margin: 0px auto;
+}
+.page {
+	width: 997px;
+	float: left;
+}
+.page-in {
+	width: 995px;
+	float: left;
+	border-top: solid 8px #000000;
+	border-right: solid 1px #000000;
+	border-bottom: solid 2px #000000;
+	border-left: solid 1px #000000;
+}
+.header {
+	width: 995px;
+	float: right;
+}
+.topmenu {
+	background-image: url(../images/menubg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	text-align: center;
+	width: 995px;
+	height: 43px;
+	float: left;
+}
+.topmenu ul {
+	margin:0px;
+	padding:0px 0px 0px 190px;
+	list-style:none;
+}
+.topmenu ul li {
+	margin:0px;
+	padding:0px 21px 0px 21px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration:none;
+	font-weight:bold;
+	text-transform:uppercase;
+	float:left;
+	display:block;
+	line-height:43px;
+	background:url(../images/devider.jpg) no-repeat left top;
+}
+.topmenu ul li a {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration:none;
+	font-weight:bold;
+}
+.topmenu ul li a:hover {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #f37126;
+	text-decoration:none;
+	font-weight:bold;
+}
+.mid {
+	margin:0px;
+	padding:0px 0px 20px 0px;
+	width: 995px;
+	float: left;
+}
+.mid-left {
+	margin:0px;
+	padding:0px;
+	background:#FFFFFF;
+	width:704px;
+	float:left;
+}
+.gap-1 {
+	margin:0px;
+	padding:25px 20px 20px 20px;
+}
+.bord-1 {
+	margin:0px;
+	padding:0px 0px 10px 0px;
+	border-bottom:1px solid #e0e0e0;
+}
+.copyright {
+	border:0px;
+	height:1px;
+	width:1px;
+}
+h1 {
+	margin:0px;
+	padding:7px 0px 7px 0px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #d8141d;
+	text-decoration:none;
+	font-weight:normal;
+	line-height:30px;
+	text-transform:uppercase;
+}
+h2 {
+	margin:0px;
+	padding:30px 0px 5px 20px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #000;
+	text-decoration:none;
+	font-weight:normal;
+	line-height:24px;
+	text-transform:uppercase;
+}
+p.txt-1 {
+	margin:0px;
+	padding:7px 0px 7px 0px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	text-decoration:none;
+	font-weight:normal;
+	line-height:18px;
+}
+.footer {
+	margin:0px;
+	padding:14px 0px 25px 0px;
+	width: 995px;
+	float: left;
+	background:#222223;
+}
+p.copyright-text {
+	margin:0px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	text-align:center;
+	text-decoration:none;
+	font-weight:normal;
+	line-height:10px;
+}
+
+
+
+
+form.register{
+    width:800px;
+    margin: 20px auto 0px auto;
+    height:530px;
+    background-color:#fff;
+    padding:5px;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+}
+form p{
+    font-size: 8pt;
+    clear:both;
+    margin: 0;
+    color:gray;
+    padding:4px;
+}
+form.register fieldset.row1
+{
+    width:770px;
+    padding:5px;
+    float:left;
+    border-top:1px solid #F5F5F5;
+    margin-bottom:15px;
+}
+form.register fieldset.row1 label{
+    width:140px;
+    float: left;
+    text-align: right;
+    margin-right: 6px;
+    margin-top:2px;
+}
+form.register legend
+{
+    color: #d8141d;
+    padding:2px;
+    margin-left: 14px;
+    font-weight:bold;
+    font-size: 14px;
+    font-weight:100;
+}
+form.register label{
+    color:#444;
+    width:98px;
+    float: left;
+    text-align: right;
+    margin-right: 6px;
+    margin-top:2px;
+}
+form.register label.optional{
+    float: left;
+    text-align: right;
+    margin-right: 6px;
+    margin-top:2px;
+    color: #A3A3A3;
+}
+form.register input{
+    width: 140px;
+    color: #505050;
+    float: left;
+    margin-right: 5px;
+}
+form.register input.long{
+    width: 247px;
+    color: #505050;
+}
+form.register input.short{
+    width: 40px;
+    color: #505050;
+}
+form.register input[type=radio]
+{
+    float:left;
+    width:15px;
+}
+form.register input[type=text]
+{
+    border: 1px solid #E1E1E1;
+    height: 18px;
+}
+.button
+{
+    background: #d8141d url(../images/overlay.png) repeat-x;
+    padding: 8px 10px 8px;
+    color: #fff;
+    cursor: pointer;
+    float:left;
+    font-size:18px;
+    margin:10px;
+}
+form.register select
+{
+    border: 1px solid #E1E1E1;
+    width: 130px;
+    float:left;
+    margin-bottom:3px;
+    color: #505050;
+    margin-right:5px;
+}
+input:focus, select:focus{
+    background-color: #efffe0;
+}
